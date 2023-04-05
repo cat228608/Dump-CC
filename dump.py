@@ -49,7 +49,7 @@ async def reaction(event):
         if filt2:
             print("Поймал 3")
             for item in filt2:
-                my_file = open("cc.txt", "at")
+                my_file = open("cc.txt", "at") #Люблю аню, и всегда буду любить!
                 my_file.write(f"{item}\n")
                 my_file.close()
                 
